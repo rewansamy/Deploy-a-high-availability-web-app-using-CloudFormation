@@ -23,5 +23,5 @@ to update:
 > ./update.sh ourinfraServer ourinfraServer.yml ourinfraServerParameters.json
 ```aws cloudformation update-stack --stack-name Udagram-Servers --template-body file://Udagram-Servers.yml --parameters file://Udagram-Server-Parameters.json --capabilities CAPABILITY_NAMED_IAM
 ```
-##public URL of the LoadBalancer:
+## public URL of the LoadBalancer:
 http://Udagr-WebAp-K45FM8RZ2K4U-461050585.us-east-2.elb.amazonaws.com
