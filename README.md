@@ -23,3 +23,6 @@ to update:
 > ./update.sh ourinfraServer ourinfraServer.yml ourinfraServerParameters.json
 ```aws cloudformation update-stack --stack-name Udagram-Servers --template-body file://Udagram-Servers.yml --parameters file://Udagram-Server-Parameters.json --capabilities CAPABILITY_NAMED_IAM
 ```
+## to delete the stack:
+aws cloudformation delete-stack --stack-name Udagram-Servers
+aws cloudformation delete-stack --stack-name Udagram-Network
